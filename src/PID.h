@@ -13,9 +13,14 @@ public:
   /*
   * Coefficients
   */ 
+  double tao;
+  double tao_d;
+  double tao_i;
+  double cteTotal;
   double Kp;
   double Ki;
   double Kd;
+  double previousCTE;
 
   /*
   * Constructor
@@ -35,12 +40,12 @@ public:
   /*
   * Update the PID error variables given cross track error.
   */
-  void UpdateError(double cte);
+  double Steer(double cte);
 
   /*
   * Calculate the total PID error.
   */
-  double TotalError();
+  double Throttle(double cte);
 };
 
 #endif /* PID_H */
