@@ -18,5 +18,5 @@ believe the same method of combining controllers could be used to solve this pro
 the number of hyperparameters to tune and would probably require non manual hyperparameter tuning. 
 
 
-[![Watch in action](http://img.youtube.com/vi/https://youtu.be/fLNwpXFY0zQ/0.jpg)](http://www.youtube.com/watch?v=https://youtu.be/fLNwpXFY0zQ)
+[![Watch in action](https://i.ytimg.com/vi/fLNwpXFY0zQ/hqdefault.jpg)](https://youtu.be/fLNwpXFY0zQ)
 
